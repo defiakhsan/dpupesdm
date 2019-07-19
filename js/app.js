@@ -383,8 +383,8 @@ function initializeMap() {
     var centerLon = lon - 0.0105;
 
     var myOptions = {
-        scrollwheel: false,
-        draggable: false,
+        scrollwheel: true,
+        draggable: true,
         disableDefaultUI: true,
         center: new google.maps.LatLng(lat, centerLon),
         zoom: 15,
@@ -400,7 +400,7 @@ function initializeMap() {
     });
 
     var infowindow = new google.maps.InfoWindow({
-        content: "Your content goes here!"
+        content: "Dinas Pekerjaan Umum Perumahan dan ESDM DIY!"
     });
 
     google.maps.event.addListener(marker, 'click', function () {
