@@ -400,7 +400,7 @@ function initializeMap() {
     });
 
     var infowindow = new google.maps.InfoWindow({
-        content: "Dinas Pekerjaan Umum Perumahan dan ESDM DIY!"
+        content: "Dinas Pekerjaan Umum Perumahan dan ESDM DIY"
     });
 
     google.maps.event.addListener(marker, 'click', function () {
