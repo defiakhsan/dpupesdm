@@ -377,8 +377,8 @@ $("#send-mail").click(function () {
 
 function initializeMap() {
 
-    var lat = '110.362529'; //Set your latitude.
-    var lon = '-7.786548'; //Set your longitude.
+    var lat = '-7.786548'; //Set your latitude.
+    var lon = '110.362529'; //Set your longitude.
 
     var centerLon = lon - 0.0105;
 
