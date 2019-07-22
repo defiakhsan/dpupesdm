@@ -52,6 +52,7 @@ p {
     padding: 10px;
     font-weight: 100;
     color: #fff;
+    text-align: justify;
 }
 .navbar {
     background: #181A1C;
