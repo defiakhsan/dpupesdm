@@ -369,7 +369,7 @@ p {
     border-bottom: 1px solid #FFF;
 }
 .primary-section, .primary-section .title p, .primary-section h3 {
-    color: #FFF
+    color: #FFF;
     /* color: #FECE1A; */
 }
 .primary-section h1 {
