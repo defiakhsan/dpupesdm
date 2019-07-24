@@ -26,7 +26,7 @@
     left:0;
     width:100%;
     height:100%;
-    background: #FECE1A;
+    background: #0088cc;
     opacity:0.85;
     filter: alpha(opacity=85);
 }
@@ -395,7 +395,8 @@
         opacity: 0;
     }
     100% {
-        left: 60%;
+        left: 0;
+        /* left: 60%; */
         opacity: 1;
     }
 }
